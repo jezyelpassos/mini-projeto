@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Faz com que muda a fonte do body */
+    text-align: center; /* Faz com que todo o conteúdo seja centralizado */
+    color: #fff; /* cor das letras do corpo do site */
+    background-color: #000000; /* cor do fundo do site */
+    padding: 0; /* Tirar todo o espaçamento, pois geralmente não vai usar */
+    margin: 0; /* tirar as margens, pois geralmente não vai usar */
+}
+
+nav {
+    display: flex; /* Vai mudar como os elementos barra de navegação e título se comportam, 
+    fazendo eles ficarem um do lado do outro */
+    justify-content: space-between; /* Ele vai criar um espaçamento entre os elementos, 
+    para que fique um em cada canto */
+    padding: 15px; /* Espaçamento interno, serve para tirar o site dos cantos */
+    border-bottom: 1px solid #d95032; /* uma borda em baixo da navbar */
+}
+
+nav h2 { /* muda a cor do elemento dentro dessa teg */
+    color: #d95032;
+}
+
+nav ul { /* Entende que agora quer estilizar so o que está dentro da NAV UL */
+    display: flex; /* deixa uma do lado da outra */
+    align-items: center; /* Ele vai centralizar o título e as barra de navegação na mesma trajetória */
+    list-style: none; /* Tirar as bolinhas da barra de navegação */
+}
+
+nav ul li {
+    margin-right: 15px; /* estou afastando as barras de navegação uma da outra */
+}
+
+nav ul li a { /* muda a cor do elemento dentro dessa teg */
+    color: #d95032;
+}
+
+section div { /* muda a cor do elemento dentro dessa teg */
+    color: #d9c1ab;
+}
+
+section div h1 { /* aumentar a fonte do h1 */
+    font-size: 25px;
+}
+
+img { /* colocar bordas na imagem */
+    border: 1px solid #d9c1ab;
+}
+
+footer { /* Estilizar o rodapé */
+    padding: 15px; /* adiciona espaçamento no texto do rodapé */
+    color: #d9c1ab; /* muda a cor do elemento */
+    border-top: 1px solid #d95032; /* adiciona e muda a cor da borda */
+    margin-top: 10px; /* espaçamento da borda */
+}
